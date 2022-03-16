@@ -28,11 +28,11 @@
 //
 // twoMass(array1, array2)
 
-function azim(length) {
-    console.log(length.length)
-}
-
-const length = [
-    1, 2, 3, 4, 5, 6, 7
-]
-azim(length)
+// function azim(length) {
+//     console.log(length.length)
+// }
+//
+// const length = [
+//     1, 2, 3, 4, 5, 6, 7
+// ]
+// azim(length)
