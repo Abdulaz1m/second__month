@@ -6,7 +6,9 @@ document.getElementById("Plus").onclick = function() {
 }
 
 document.getElementById("Minus").onclick = function() {
-  return num.innerHTML--
+  if (num.innerHTML > 0){
+    return num.innerHTML--
+  }
 }
 
 
