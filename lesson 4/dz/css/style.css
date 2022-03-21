@@ -3,22 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 1200px;
+    justify-content: center;
+}
 h2 {
     text-align: center;
-    margin-top: 50px;
     text-transform: uppercase;
     font-size: 50px;
 }
 #counter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-top: 30px;
     background-color: darkgray;
     height: 500px;
     width: 500px;
     margin: 20px auto;
     border: black solid 5px;
-    border-radius: 50%;
+}
+.counter_inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 130px;
 }
 button {
     width: 60px;
